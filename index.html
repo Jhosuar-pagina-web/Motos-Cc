@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Velocita Motors | Concesionario y Taller Especializado</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        html { scroll-behavior: smooth; }
+        .hero-bg {
+            background: linear-gradient(rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.95)), 
+                        url('https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+        }
+    </style>
+</head>
+<body class="bg-slate-900 text-slate-100 font-sans antialiased">
+
+    <!-- Top Info Bar -->
+    <div class="bg-red-600 text-white text-sm py-2 px-4 text-center font-semibold tracking-wide">
+        🔥 Oportunidad Única: ¡Financiación inmediata llamando o escribiendo al <a href="https://wa.me/573135811217" target="_blank" class="underline hover:text-slate-200">3135811217</a>!
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="sticky top-0 z-50 bg-slate-950/90 backdrop-blur-md border-b border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <i class="fa-solid fa-motorcycle text-red-600 text-3xl"></i>
+                <a href="#" class="text-2xl font-black tracking-wider uppercase">VELOCITA <span class="text-red-600">MOTORS</span></a>
+            </div>
+            
+            <nav class="hidden md:flex space-x-8 text-sm font-semibold uppercase tracking-wide">
+                <a href="#catalogo" class="hover:text-red-500 transition">Catálogo</a>
+                <a href="#servicios" class="hover:text-red-500 transition">Servicios</a>
+                <a href="#nosotros" class="hover:text-red-500 transition">Nosotros</a>
+                <a href="#contacto" class="hover:text-red-500 transition">Contacto</a>
+            </nav>
+
+            <a href="https://wa.me/573135811217?text=Hola,%20quiero%20más%20información%20sobre%20las%20motos" target="_blank" class="bg-red-600 hover:bg-red-700 text-white px-5 py-2.5 rounded-lg font-bold transition flex items-center space-x-2 shadow-lg shadow-red-600/30">
+                <i class="fa-brands fa-whatsapp text-lg"></i>
+                <span>3135811217</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-bg min-h-[85vh] flex items-center justify-center text-center px-4 py-20">
+        <div class="max-w-4xl mx-auto">
+            <span class="bg-red-600/20 text-red-400 border border-red-500/30 text-xs font-bold px-4 py-1.5 rounded-full uppercase tracking-widest inline-block mb-4">Modelos 2026 Disponibles</span>
+            <h1 class="text-4xl sm:text-6xl font-black tracking-tight text-white uppercase mb-6 leading-tight">
+                Siente la Potencia y la <span class="text-red-600">Libertad Total</span>
+            </h1>
+            <p class="text-lg sm:text-xl text-slate-300 mb-8 max-w-2xl mx-auto">
+                Encuentra la motocicleta ideal para tu estilo de vida. Desde deportivas de alta cilindrada hasta touring de aventura y modelos urbanos.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#catalogo" class="bg-red-600 hover:bg-red-700 text-white font-bold px-8 py-4 rounded-lg uppercase tracking-wider transition shadow-lg shadow-red-600/40">
+                    Ver Catálogo
+                </a>
+                <a href="https://wa.me/573135811217?text=Hola,%20deseo%20agendar%20una%20prueba%20de%20manejo" target="_blank" class="bg-slate-800 hover:bg-slate-700 text-white border border-slate-700 font-bold px-8 py-4 rounded-lg uppercase tracking-wider transition">
+                    Prueba de Manejo
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Catálogo de Motos -->
+    <section id="catalogo" class="py-20 px-4 max-w-7xl mx-auto">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl sm:text-4xl font-extrabold uppercase text-white">Catálogo <span class="text-red-600">Destacado</span></h2>
+            <p class="text-slate-400 mt-2">Motos seleccionadas con garantía de fábrica y asesoría personalizada.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Moto 1: Sport/Naked -->
+            <div class="bg-slate-800 rounded-xl overflow-hidden border border-slate-700 shadow-xl flex flex-col hover:border-red-600 transition">
+                <div class="relative h-56">
+                    <img src="https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80" alt="Apex R-600 Monster" class="w-full h-full object-cover">
+                    <span class="absolute top-3 left-3 bg-red-600 text-white text-xs font-bold px-3 py-1 rounded">Deportiva</span>
+                </div>
+                <div class="p-6 flex-1 flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-xl font-bold text-white mb-2">Apex R-600 Monster</h3>
+                        <p class="text-slate-400 text-sm mb-4">Diseño aerodinámico y respuesta inmediata para los amantes de la velocidad.</p>
+                        <ul class="text-xs text-slate-300 space-y-2 mb-6">
+                            <li class="flex items-center"><i class="fa-solid fa-gauge text-red-500 mr-2"></i> Motor 599 cc (4 Cilindros)</li>
+                            <li class="flex items-center"><i class="fa-solid fa-bolt text-red-500 mr-2"></i> 118 HP @ 13,500 RPM</li>
+                            <li class="flex items-center"><i class="fa-solid fa-shield-halved text-red-500 mr-2"></i> Frenos ABS Brembo</li>
+                        </ul>
+                    </div>
+                    <div class="pt-4 border-t border-slate-700 flex justify-between items-center">
+                        <div>
+                            <span class="text-xs text-slate-400 block">Precio Especial</span>
+                            <span class="text-xl font-extrabold text-white">$11,490 USD</span>
+                        </div>
+                        <a href="https://wa.me/573135811217?text=Quiero%20información%20de%20la%20Apex%20R-600" target="_blank" class="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-bold text-sm transition">
+                            Cotizar
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Moto 2: Adventure -->
+            <div class="bg-slate-800 rounded-xl overflow-hidden border border-slate-700 shadow-xl flex flex-col hover:border-red-600 transition">
+                <div class="relative h-56">
+                    <img src="https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=800&q=80" alt="Terra Cross 1200 GT" class="w-full h-full object-cover">
+                    <span class="absolute top-3 left-3 bg-red-600 text-white text-xs font-bold px-3 py-1 rounded">Adventure / Touring</span>
+                </div>
+                <div class="p-6 flex-1 flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-xl font-bold text-white mb-2">Terra Cross 1200 GT</h3>
+                        <p class="text-slate-400 text-sm mb-4">Construida para conquistar cualquier terreno sin sacrificar comodidad.</p>
+                        <ul class="text-xs text-slate-300 space-y-2 mb-6">
+                            <li class="flex items-center"><i class="fa-solid fa-gauge text-red-500 mr-2"></i> Motor 1,170 cc Biclíndrico</li>
+                            <li class="flex items-center"><i class="fa-solid fa-sliders text-red-500 mr-2"></i> Modos de Manejo Adaptativos</li>
+                            <li class="flex items-center"><i class="fa-solid fa-compass text-red-500 mr-2"></i> Suspensión Electrónica</li>
+                        </ul>
+                    </div>
+                    <div class="pt-4 border-t border-slate-700 flex justify-between items-center">
+                        <div>
+                            <span class="text-xs text-slate-400 block">Precio Especial</span>
+                            <span class="text-xl font-extrabold text-white">$16,800 USD</span>
+                        </div>
+                        <a href="https://wa.me/573135811217?text=Quiero%20información%20de%20la%20Terra%20Cross%201200" target="_blank" class="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-bold text-sm transition">
+                            Cotizar
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Moto 3: Custom / Cruiser -->
+            <div class="bg-slate-800 rounded-xl overflow-hidden border border-slate-700 shadow-xl flex flex-col hover:border-red-600 transition">
+                <div class="relative h-56">
+                    <img src="https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80" alt="Shadow V-Twin 900" class="w-full h-full object-cover">
+                    <span class="absolute top-3 left-3 bg-red-600 text-white text-xs font-bold px-3 py-1 rounded">Cruiser</span>
+                </div>
+                <div class="p-6 flex-1 flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-xl font-bold text-white mb-2">Shadow V-Twin 900</h3>
+                        <p class="text-slate-400 text-sm mb-4">Estilo clásico custom con acabados en cromo y máxima ergonomía.</p>
+                        <ul class="text-xs text-slate-300 space-y-2 mb-6">
+                            <li class="flex items-center"><i class="fa-solid fa-gauge text-red-500 mr-2"></i> Motor 896 cc V-Twin</li>
+                            <li class="flex items-center"><i class="fa-solid fa-gear text-red-500 mr-2"></i> Transmisión por Banda</li>
+                            <li class="flex items-center"><i class="fa-solid fa-couch text-red-500 mr-2"></i> Asiento Ergonómico Artesanal</li>
+                        </ul>
+                    </div>
+                    <div class="pt-4 border-t border-slate-700 flex justify-between items-center">
+                        <div>
+                            <span class="text-xs text-slate-400 block">Precio Especial</span>
+                            <span class="text-xl font-extrabold text-white">$9,850 USD</span>
+                        </div>
+                        <a href="https://wa.me/573135811217?text=Quiero%20información%20de%20la%20Shadow%20V-Twin" target="_blank" class="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-bold text-sm transition">
+                            Cotizar
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Servicios -->
+    <section id="servicios" class="bg-slate-950 py-20 border-y border-slate-800">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl sm:text-4xl font-extrabold uppercase text-white">Nuestros <span class="text-red-600">Servicios</span></h2>
+                <p class="text-slate-400 mt-2">Todo lo que necesitas para tu motocicleta en un solo lugar.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-slate-900 p-8 rounded-xl border border-slate-800 hover:border-red-600 transition text-center">
+                    <div class="w-16 h-16 bg-red-600/10 border border-red-600/30 rounded-xl flex items-center justify-center mx-auto mb-6 text-red-500 text-2xl">
+                        <i class="fa-solid fa-wrench"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Taller Especializado</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">Mantenimiento preventivo, diagnóstico computarizado y reparación mecánica con técnicos certificados.</p>
+                </div>
+
+                <div class="bg-slate-900 p-8 rounded-xl border border-slate-800 hover:border-red-600 transition text-center">
+                    <div class="w-16 h-16 bg-red-600/10 border border-red-600/30 rounded-xl flex items-center justify-center mx-auto mb-6 text-red-500 text-2xl">
+                        <i class="fa-solid fa-credit-card"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Financiamiento Directo</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">Planes de pago flexibles ajustados a tu presupuesto. Aprobación rápida presentando tu documento de identidad.</p>
+                </div>
+
+                <div class="bg-slate-900 p-8 rounded-xl border border-slate-800 hover:border-red-600 transition text-center">
+                    <div class="w-16 h-16 bg-red-600/10 border border-red-600/30 rounded-xl flex items-center justify-center mx-auto mb-6 text-red-500 text-2xl">
+                        <i class="fa-solid fa-helmet-safety"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Repuestos y Accesorios</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">Cascos homologados, indumentaria de protección y repuestos 100% originales garantizados.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Banner de Contacto Directo / Call To Action -->
+    <section id="contacto" class="py-20 px-4 max-w-7xl mx-auto">
+        <div class="bg-gradient-to-r from-red-700 to-red-900 rounded-2xl p-8 sm:p-12 flex flex-col md:flex-row items-center justify-between shadow-2xl relative overflow-hidden">
+            <div class="mb-8 md:mb-0 max-w-xl">
+                <h2 class="text-3xl sm:text-4xl font-black text-white uppercase mb-4">¿Listo para estrenar tu próxima moto?</h2>
+                <p class="text-red-100">Contáctanos hoy mismo al número de atención directa. Respondemos inquietudes y agendamos tu cita de inmediato.</p>
+            </div>
+            <div class="flex flex-col sm:flex-row items-center gap-4 w-full md:w-auto">
+                <a href="https://wa.me/573135811217?text=Hola,%20deseo%20asesoría%20para%20comprar%20una%20moto" target="_blank" class="w-full sm:w-auto bg-slate-950 hover:bg-slate-900 text-white font-bold px-8 py-4 rounded-xl flex items-center justify-center space-x-3 text-lg transition border border-slate-800 shadow-lg">
+                    <i class="fa-brands fa-whatsapp text-green-500 text-2xl"></i>
+                    <span>3135811217</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 border-t border-slate-800 py-10 px-4 text-slate-400 text-sm">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+            <div class="flex items-center space-x-3">
+                <i class="fa-solid fa-motorcycle text-red-600 text-2xl"></i>
+                <span class="text-white font-bold tracking-wider">VELOCITA MOTORS</span>
+            </div>
+            <p class="text-center md:text-left">© 2026 Velocita Motors. Todos los derechos reservados. Contacto: <strong>3135811217</strong></p>
+            <div class="flex space-x-4 text-lg">
+                <a href="https://wa.me/573135811217" target="_blank" class="hover:text-red-500 transition"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="#" class="hover:text-red-500 transition"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="hover:text-red-500 transition"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
